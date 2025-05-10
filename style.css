@@ -1,0 +1,35 @@
+body {
+    background-color: #f0f4f8;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card img{
+width: 150px;
+border-radius: 50%;
+}
+
+.title {
+ color: gray;
+ font-size: 18px;
+ margin: 10px 0;
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    color: white;
+    background-color: #333;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+ button:hover {
+   background-color: #555;
+}
